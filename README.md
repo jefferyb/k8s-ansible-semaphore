@@ -14,7 +14,7 @@ kind: Kustomization
 
 namespace: ansible-semaphore
 resources:
-  - https://github.com/jefferyb/ansible-semaphore.git
+  - https://github.com/jefferyb/k8s-ansible-semaphore.git
 
 patches:
 ### Update some values
